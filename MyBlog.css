@@ -1,0 +1,366 @@
+#whole{
+  background-color: wheat;
+  width: 100%;
+}
+
+body{
+  background-image: wheat;
+}
+/* Global Styles */
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+#head {
+  color: #333;
+  font-size: 40px;
+  font-family: 'Arial', sans-serif;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 70px;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+/* Navigation Styles */
+#nav {
+  background-color: #0074e4;
+  margin-top: 20px;
+  text-align: center;
+  border-left: 5px solid #333;
+  border-right: 5px solid #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 96.5%;
+}
+
+#nav li {
+  display: inline;
+  font-size: 24px;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: #333;
+  border-bottom: 3px solid #333;
+  text-decoration: none;
+}
+
+.n {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.n:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+/* Section Styles */
+.wel {
+  margin: 20px 0px;
+  color: #333;
+  font-size: 24px;
+  background-color: #f0f0f0;
+  width: 96%;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Home Section Styles */
+#home {
+  background-color: #0074e4;
+  font-size: 18px;
+  padding: 30px;
+  width: 94%;
+  border-left: 5px solid #333;
+  border-right: 5px solid #333;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+#sam {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Container */
+#hm {
+  background-color: #0074e4;
+}
+
+/* Article Paragraph Styles */
+.p {
+  background-color: #fff;
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 13px;
+}
+
+.s {
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+/* Read Section Styles */
+#read {
+  background-color: #ff00d9;
+  font-size: 18px;
+  padding: 30px;
+  width: 94%;
+  border-left: 5px solid #333;
+  border-right: 5px solid #333;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.h {
+  width: 150px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  border-bottom: 3px solid #333;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+#hh {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Fieldset and Legend Styles */
+fieldset {
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+legend {
+  font-weight: 300;
+  font-stretch: expanded;
+  margin: 0;
+}
+
+/* Label Styles */
+label {
+  color: #333;
+  margin-left: 20px;
+}
+
+/* Checkbox Styles */
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+label[for="hi"],
+label[for="hii"],
+label[for="hiio"] {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Generate HTML for Write Section */
+#write {
+  background-color: #0074e4;
+  font-size: 18px;
+  padding: 30px;
+  width: 94%;
+  border-left: 5px solid #333;
+  border-right: 5px solid #333;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Style for the Start Reading Button */
+#start-reading {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: rgb(255,0,0,0.6);
+  color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#start-reading:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+/* Style for the Grid of Buttons */
+#button-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.read-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgba(210, 82, 82, 0.524);
+  color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-button:hover {
+  background-color: rgb(250, 53, 53);
+  color: yellow;
+}
+
+
+
+#write-now{
+  background-color: #001effcf; 
+  color: white; 
+  font-size: 18px;
+   padding: 10px 20px; 
+   border: 2px solid black; 
+   border-radius: 20px; 
+   cursor: pointer;
+}
+
+#get-started:hover,
+#write-now:hover{
+  background-color: rgb(38, 0, 255);
+}
+
+
+#get-started{
+  text-decoration: none; 
+  background-color: #001effcf; 
+  color: white; 
+  font-size: 20px; 
+  padding: 10px 20px; 
+  margin: 15px;
+  border: 2px solid black; 
+  border-radius: 20px;
+}
+
+#login{
+  background-color: #001effcf;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#login:hover{
+  background-color: rgb(38, 0, 255);
+}
+/* Reviews Section Styles */
+#reviews {
+  background-color:aquamarine;
+  padding: 30px;
+}
+
+#review-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.review {
+  
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.review h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: rgba(222, 184, 135, 0.911);
+}
+
+/* Perks of Blogging Section Styles */
+#perks {
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+#perk-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.perk {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.perk h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+#contact{
+  background-color:thistle;
+  margin: 20px;
+  height: auto;
+  
+}
+h4 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+#unlist {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+#unlist li {
+  margin-bottom: 5px;
+  background-color: #56bbffbd;
+  height: 32px;
+}
+#unlist li:hover{
+  background-color:  #3498db ;
+}
+
+#unlist li a {
+  text-decoration: none;
+  color:white;
+  font-size: 23px;
+
+}
+
+#unlist li a:hover {
+  text-decoration: underline;
+}
